@@ -10,7 +10,7 @@
     "run-served": "wait-on http://localhost:1337 && npm run run -- --host=http://localhost:1337",
     "run": "node index.js",
     "start": "npm run run -- --host=./ng-build/index.html",
-    "build": "npm --prefix ./ng-wrapped-application run build --prod",
+    "build": "npm --prefix ./ng-wrapped-application run build -- --prod --deploy-url ng-build/",
     "test": "npm run build && npm run start"
   },
   "keywords": [],
