@@ -1,0 +1,59 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/ng-wrapped-application/dist
+/ng-wrapped-application/tmp
+/ng-wrapped-application/out-tsc
+# Only exists if Bazel was run
+/ng-wrapped-application/bazel-out
+
+# dependencies
+/node_modules
+/ng-wrapped-application/node_modules
+
+# profiling files
+/ng-wrapped-application/chrome-profiler-events*.json
+/ng-wrapped-application/speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+/ng-wrapped-application/.sass-cache
+/ng-wrapped-application/connect.lock
+/ng-wrapped-application/coverage
+/ng-wrapped-application/libpeerconnection.log
+/ng-wrapped-application/npm-debug.log
+/ng-wrapped-application/yarn-error.log
+/ng-wrapped-application/testem.log
+/ng-wrapped-application/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Angular build output
+/ng-build
